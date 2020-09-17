@@ -1,0 +1,23 @@
+ul{
+
+}
+
+#TopNav li{
+  text-decoration: none;
+  display: inline;
+  float: right;
+  padding: 15px;
+}
+
+#TopNav li:hover{
+  background-color: black;
+}
+
+#TopNav li a{
+  font-family: monospace;
+  text-decoration: none;
+}
+
+#TopNav li a:hover{
+  color:yellow;
+}
