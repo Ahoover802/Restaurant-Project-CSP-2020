@@ -1,23 +1,67 @@
-ul{
-
+#TopNav{
+  background-color: blue;
+  width:100%;
+  height:15%;
+  margin: 0px;
+  border-bottom: 4px solid black;
 }
 
 #TopNav li{
   text-decoration: none;
   display: inline;
   float: right;
-  padding: 15px;
+  padding-left: 30px;
+  padding-right: 45px;
+  padding-top: 30px;
+  padding-bottom: 34px;
 }
 
 #TopNav li:hover{
-  background-color: black;
+  background-color: white;
 }
 
 #TopNav li a{
   font-family: monospace;
+  font-size: 20px;
   text-decoration: none;
+  color: black;
+}
+body{
+  margin: 0px;
 }
 
 #TopNav li a:hover{
-  color:yellow;
+  color: black;
+}
+
+#MenuNav{
+  height: 110%;
+  width: 80px;
+  background-color: blue;
+  border-right: 4px solid black;
+  margin: 0px;
+  float: left;
+}
+#MenuNav li{
+  list-style: none;
+  font-size: 15px;
+  font-family:sans-serif;
+  padding-top: 25px;
+  color: white;
+}
+#MenuNav li a{
+  color: black;
+}
+#MenuNav li a:hover{
+  color: white;
+}
+#K img{
+  float:left;
+}
+#C img{
+  float:left;
+}
+body{
+  overflow-x: hidden;
+  overflow-y:hidden;
 }
